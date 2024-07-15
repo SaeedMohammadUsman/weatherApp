@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="css/style.css">
+    <title>WeatherApp</title>
+</head>
+
+<body>
+
+    <div class="weather-app  ">
+
+        <form class="search-form" action="">
+            <input class="city-input" type="text" placeholder="Enter City Name">
+            <button class="search-btn" type="submit">
+                <i class="fa-sharp fa-solid fa-magnifying-glass "></i>
+
+            </button>
+        </form>
+
+        <div class="city-date-section">
+            <h2 class="city">Kabul</h2>
+            <p class="date">7 July 2024</p>
+        </div>
+        <div class="temperature-info">
+            <div class="description">
+                <i class="fa-solid fa-sun search-form-icon"></i>
+
+                <span class="decription-text">Sunny</span>
+            </div>
+            <div class="temperature">20°</div>
+        </div>
+        <div class="addition-info">
+            <div class="wind-info">
+                <i class="fa-solid fa-wind"></i>
+                <div>
+                    <h3 class="wind-speed">4 KM/H</h3>
+                    <p class="wind-label">Wind</p>
+                </div>
+            </div>
+
+            <div class="humidity-info">
+                <i class="fa-solid fa-droplet"></i>
+                <div>
+                    <h3 class="humidity">45%</h3>
+                    <p class="humidity">humidity</p>
+                </div>
+            </div>
+
+            <div class="visibility-info">
+                <i class="fa-solid fa-eye"></i>
+                <div>
+                    <h3 class="visibility-distance">45%</h3>
+                    <p class="visibility">visibility</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="js/city.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
